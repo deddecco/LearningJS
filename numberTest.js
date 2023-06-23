@@ -21,7 +21,7 @@ x = addNumbers(1, 2);
 
 console.log(x);
 
-let c = 'apple sauce';
+let c = 'applesauce';
 
 for (let i = 0; i < c.length; i++) {
     console.log('c.charAt(' + i + ') = ' + c.charAt(i));
@@ -31,9 +31,9 @@ for (let i = 0; i < c.length; i++) {
 let freq = new Map();
 for (let character in c) {
     if (freq.has(character)) {
-        freq.set(character, );
+        freq.set(c[character], freq.get(c[character]) + 1);
     } else {
-        freq.set(character, 1);
+        freq.set(c[character], 1);
     }
 }
 
